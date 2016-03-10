@@ -12,16 +12,23 @@
         android:layout_marginTop="42dp" />
 
     <TextView
-        android:layout_width="300dp"
-        android:layout_height="400dp"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="
-
-
-                   Instructions :
-
-           Listen to the random animal sound and click the animal you hear, this will go for 10 rounds. Then you will receive a score out of 10, along with an option to play again."
-        android:id="@+id/tvInst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Instructions:"
+        android:id="@+id/textView2"
         android:layout_below="@+id/btn1"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" Listen to the random animal sound and click the animal you hear, this will go for 10 rounds. Then you will receive a score out of 10, along with an option to play again."
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp" />
+
 </RelativeLayout>
