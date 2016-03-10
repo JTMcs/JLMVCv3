@@ -20,7 +20,7 @@ public class EndGame extends AppCompatActivity {
         setContentView(R.layout.game_end);
         setTitle("Game Over");
         tvEndScore = (TextView) findViewById(R.id.tvScore);
-        tvEndScore.setText("You got  " + MainActivity.nRight + "  out of  " + MainActivity.nTotal +
+        tvEndScore.setText("You got " + MainActivity.nRight + " out of " + MainActivity.nTotal +
         " correct!");
         MainActivity.nTotal = 0;
         MainActivity.nRight = 0;
