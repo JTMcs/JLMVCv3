@@ -1,4 +1,4 @@
-package com.example.arny.jlmvcv3;
+package com.example.arny.jlmvc;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.arny.jlmvcv2.R;
+import com.example.arny.jlmvc.R;
 
 
 public class EndGame extends AppCompatActivity {

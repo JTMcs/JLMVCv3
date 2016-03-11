@@ -1,4 +1,4 @@
-package com.example.arny.jlmvcv2;
+package com.example.arny.jlmvc;
 
 import org.junit.Test;
 

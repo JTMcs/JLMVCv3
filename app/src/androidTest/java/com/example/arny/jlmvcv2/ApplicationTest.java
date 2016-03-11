@@ -1,4 +1,4 @@
-package com.example.arny.jlmvcv2;
+package com.example.arny.jlmvc;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
