@@ -1,4 +1,4 @@
-package com.example.arny.jlmvcv2;
+package com.example.arny.jlmvcv3;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,10 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.arny.jlmvcv2.R;
 
-/**
- * Created by luke on 2016-03-08.
- */
+
 public class EndGame extends AppCompatActivity {
     Button btnReturn;
     TextView tvEndScore;
@@ -28,6 +27,7 @@ public class EndGame extends AppCompatActivity {
         btnReturn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //Thanks Matt Beemer for info/code on creating multiple activities
                 startActivity(new Intent(getApplicationContext(), StartMenu.class));
             }
         });

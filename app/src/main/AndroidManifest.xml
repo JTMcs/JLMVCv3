@@ -4,20 +4,25 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@mipmap/trumpface"
+        android:label="Animal Fun"
+        android:largeHeap="true"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        android:largeHeap="true">
-        <activity android:name=".StartMenu">
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.arny.jlmvcv3.StartMenu">
+            android:screenOrientation="portrait"
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".EndGame"></activity>
+        <activity android:name="com.example.arny.jlmvcv3.MainActivity">
+            android:screenOrientation="portrait"
+        </activity>
+        <activity android:name="com.example.arny.jlmvcv3.EndGame">
+            android:screenOrientation="portrait"
+        </activity>
     </application>
 
 </manifest>

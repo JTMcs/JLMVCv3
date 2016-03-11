@@ -1,3 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\Arny\Documents\Android Studio Projects\JLMVCv3\app\build\intermediates\transforms\instantRunSlicer\debug\jars\1\5\main_slice.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="11afcbb647d4256edb9fd03bbd96bfef008215de">
+        <dex dex="C:\Users\Arny\Documents\Android Studio Projects\JLMVCv3\app\build\intermediates\transforms\dex\debug\folders\1000\5\main_slice_705652d75ca5ee232cc3a94094c797c1b562070b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Arny\Documents\Android Studio Projects\JLMVCv3\app\build\intermediates\transforms\instantRunSlicer\debug\jars\1\5\main_sliceb.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="cd7c999e3072aa9c446197647df42ca4432c0ef5">
+        <dex dex="C:\Users\Arny\Documents\Android Studio Projects\JLMVCv3\app\build\intermediates\transforms\dex\debug\folders\1000\5\main_sliceb_e5a12107c51ce13d94ecfbc1c52823c9376cb109\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Arny\Documents\Android Studio Projects\JLMVCv3\app\build\intermediates\transforms\instantRunSlicer\debug\jars\1\1a\dependencies.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9075ca0fecbfaad94df2b439fd5ba7afc225eca4">
+        <dex dex="C:\Users\Arny\Documents\Android Studio Projects\JLMVCv3\app\build\intermediates\transforms\dex\debug\folders\1000\1a\dependencies_4ce3b6a74e34cde29fea191225d2bd17fe79152b\classes.dex" />
+    </item>
+
+</items>

@@ -1,4 +1,4 @@
-package com.example.arny.jlmvcv2;
+package com.example.arny.jlmvcv3;
 
 import android.content.Intent;
 import android.media.MediaPlayer;
@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.arny.jlmvcv2.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
     String[] arsKeep;
     ArrayList<String> listAnml;
     Toast tCor, tBad;
-    TextView txtScore;
     MediaPlayer mNoise;
 
     @Override
@@ -67,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public int getRes(int nPic) {
+        //http://stackoverflow.com/questions/3538649/accessing-contents-of-r-string-using-a-variable-to-represent-the-resource-name
         nRan = (int) Math.floor(Math.random() * listAnml.size());
         nPicID = getResources().getIdentifier(listAnml.get(nRan), "drawable", getPackageName());
         arsKeep[nPic] = listAnml.get(nRan);
@@ -75,17 +77,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void playSound() {
+        //http://stackoverflow.com/questions/12266502/android-mediaplayer-stop-and-play
         nSndID = getResources().getIdentifier(arsKeep[nRan2], "raw", getPackageName());
         mNoise = MediaPlayer.create(getApplicationContext(), nSndID);
         mNoise.start();
     }
-
-/*    public void showScore() {
-        fScore = fRight / fTotal * 100;
-        nPrcnt = (int) (fScore + 0.5);
-        sScore = Integer.toString(nPrcnt) + "%";
-        txtScore.setText(sScore);
-    }*/
 
     View.OnClickListener Sound = new View.OnClickListener() {
         @Override
@@ -126,7 +122,6 @@ public class MainActivity extends AppCompatActivity {
                 mNoise.stop();
                 mNoise.release();
                 startActivity(new Intent(getApplicationContext(), EndGame.class));
-                //showScore();
             }
         }
     };
